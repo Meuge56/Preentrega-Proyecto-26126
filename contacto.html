@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="../CSS/contacto.css">
+
+</head>
+<body>
+    <div class="formulario">
+        <form action="https://formspree.io/f/mdabvezy" method="POST">
+            <h2>Contactanos</h2>
+            <p>Envianos tu mensaje, te responderemos a la brevedad.</p>
+
+            <div class="ingreso_datos">
+                <label for="fullname">Nombre completo</label>
+                <input type="text" name="name" id="fullname" placeholder="Ej: Juan Pérez" required>
+            </div>
+
+            <div class="ingreso_datos">
+                <label for="email">Correo electrónico</label>
+                <input type="email" name="responder" id="email" placeholder="nombre@correo.com" required>
+            </div>
+
+            <div class="ingreso_datos">
+                <label for="mensaje">Mensaje</label>
+                <textarea name="mensaje" id="mensaje" rows="5" placeholder="Escribe aqui..." required></textarea>
+            </div>
+
+            <button type="submit">Enviar mensaje</button>
+        </form>
+    </div>
+
+</body>
+</html>
