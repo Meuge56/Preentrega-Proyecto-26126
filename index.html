@@ -21,11 +21,18 @@
     <div class="subtitulo">Bakery</div>
 
   </header>
-    <nav>
-      <a href="#inicio">Inicio</a>
-      <a href="#productos">Productos</a>
-      <a href="#nosotros">Nosotros</a>
-      <a href="contacto.html">Contacto</a>
+    <nav class="navbar">
+        <button class="hamburguesa" id="btnhambur" aria-label="Abrir menú">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      <div class="navlink" id="navlink">
+        <a href="#">Inicio</a>
+        <a href="#">Productos</a>
+        <a href="#">Nosotros</a>
+        <a href="contacto.html">Contacto</a>
+      </div>
     </nav>
   
   
@@ -48,7 +55,7 @@
     <div class="producto">
 
       <div class="card">
-        <img src="../Imagenes/Torta_Bruce.jpeg"" alt="Tortas">
+        <img src="../Imagenes/Torta_Bruce.jpeg" alt="Tortas">
 
         <div class="card-content">
           <h3>Tortas</h3>
@@ -96,6 +103,8 @@
 
     <p>© 2026 Bloom Bakery | Repostería artesanal</p>
   </footer>
-
-</body>
+  
+    <script src="../JS/script.js"></script>
+  
+  </body>
 </html>
